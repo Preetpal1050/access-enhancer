@@ -4,8 +4,11 @@
     "manifest_version": 2,
     "browser_action": {
         "default_popup": "popup.html",
-        "default_icon": "accesslogo.jpg"
+        "default_icon": "access logo.png"
     },
+    "icons": {
+        "128": "access logo.png"
+    },
+    "permissions": ["activeTab"]  
 
- "permissions": ["activeTab"]  
 }
