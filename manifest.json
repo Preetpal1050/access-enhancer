@@ -3,12 +3,9 @@
     "version": "0.0.1",
     "manifest_version": 2,
     "browser_action": {
-        "default_popup": "popup.html"
-        "default_icon": "access logo.png"
+        "default_popup": "popup.html",
+        "default_icon": "accesslogo.jpg"
     },
-    "icons": {
-        "128": "access logo.png"
-    }
-    
-    }
+
+ "permissions": ["activeTab"]  
 }
